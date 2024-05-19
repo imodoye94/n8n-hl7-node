@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-hl7node",
   "version": "0.1.0",
-  "description": "n8n to parse HL7v2 messages to JSON, and generate HL7v2 messages from JSON",
+  "description": "n8n node to parse HL7v2 messages to JSON, and generate HL7v2 messages from JSON",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": "https://github.com/imodoye94/n8n-nodes-hl7node.git"
   },
   "main": "index.js",
   "scripts": {
@@ -29,13 +29,8 @@
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
-    "credentials": [
-      "dist/credentials/ExampleCredentialsApi.credentials.js",
-      "dist/credentials/HttpBinApi.credentials.js"
-    ],
     "nodes": [
-      "dist/nodes/ExampleNode/ExampleNode.node.js",
-      "dist/nodes/HttpBin/HttpBin.node.js"
+      "dist/nodes/HL7Node/HL7Node.node.js"
     ]
   },
   "devDependencies": {
