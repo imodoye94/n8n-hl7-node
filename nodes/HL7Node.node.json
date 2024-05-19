@@ -1,0 +1,15 @@
+{
+  "node": "n8n-nodes-base.HL7Node",
+	"nodeVersion": 1,
+	"codexVersion": "1.0",
+	"categories": [
+		"Data & Storage"
+	],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/imodoye94/n8n-hl7-node/"
+			}
+		]
+	}
+}
