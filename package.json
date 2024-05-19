@@ -1,15 +1,15 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-hl7node",
   "version": "0.1.0",
-  "description": "",
+  "description": "n8n to parse HL7v2 messages to JSON, and generate HL7v2 messages from JSON",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://n8n.io",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Imodoye Abioro",
+    "email": "imodoye@mediverse.ai"
   },
   "repository": {
     "type": "git",
