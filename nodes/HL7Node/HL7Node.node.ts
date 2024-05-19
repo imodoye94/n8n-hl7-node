@@ -16,7 +16,7 @@ export class HL7Node implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'HL7 Node',
     name: 'hl7Node',
-    icon: 'file:hl7Node.png',
+    icon: 'file:hl7Node.svg',
     group: ['transform'],
     version: 1,
     description: 'Parse JSON to HL7 and generate HL7 messages from JSON',
